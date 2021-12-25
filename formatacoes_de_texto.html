@@ -7,14 +7,23 @@
     <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <title>Meu primeiro exercicio</title>
 
+    <style media="screen">
+      mark {
+        background-color: lime;
+      }
+    </style>
+
 </head>
 
 <body>
 
+    <hr>
 		<h1>Principais formatações</h1>
     <h2>Netrito em destaque(h2)</h2>
     <p>Negrito com a tag b não semantica (sem sentido)<b>daqui para frente</b></p>
     <p>nesta frase tenho um termo strong (semantica, com sentido)<strong>daqui em diante</strong></p>
+
+
 
     <hr>
     <h2>Italico</h2>
@@ -22,6 +31,32 @@
     <p>Nesta frase temos um termo com semantica, <em>utilizando a tag 'em'</em></p>
 
 
+
+    <hr>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK</p>
+    <!-- mark acima utiliza o style definido no cabeçalho (head) -->
+    <p>Podemos criar tambem <mark style = "background-color: lime;">um texto marcado</mark> colorido usando a tag MARK com css</p>
+    <p>Podemos criar tambem <mark style = "background-color: rgb(0,240,240);">um texto marcado</mark> colorido usando a tag MARK com css <br>
+    agora utilizando rbg</p>
+
+
+
+    <hr>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del>, quando ele deve ser lido <br> mas não considerado</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> quando ele foi adicionado depois</p>
+
+
+
+    <hr>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>4</sup>+3 </p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para escrever coisa do tipo H<sub>2</sub>O</p>
 
 </body>
 
